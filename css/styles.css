@@ -89,6 +89,31 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+div.projects{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   margin: 0;
+   grid-template-columns: 30% 30%;
+   grid-template-rows: auto 1fr auto;
+}
+
+h2.projectsh2 {
+  text-align: center;
+  
+}
+
+div.projectOne {
+  grid-column: 1;
+  
+}
+
+div.progectTwo {
+  grid-column: 2;
+  justify-content: center;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
